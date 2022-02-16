@@ -1,0 +1,128 @@
+*{
+   margin: 0;
+}
+
+header div {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+   
+}
+#avatar{
+   width: 132px;
+   text-align: center;
+   margin-top: 80px;
+   
+}
+#saludo{
+margin-top: 40px;
+font-family: Montserrat-Bold;
+font-size: 35px;
+color: #572EE5;
+text-align: center;
+line-height: 60px;
+
+}
+
+#nombreUsuario{
+font-family: Montserrat-Bold;
+font-size: 40px;
+color: #50E3C2;
+text-align: center;
+margin-bottom: 20px;
+
+}
+
+#bajada{
+   font-family: Montserrat;
+   font-size: 25px;
+   color: #572EE5;
+   text-align: center;
+   line-height: 25px;
+   margin-bottom: 60px;
+   }
+.contenedor{
+ 
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+.contenedorCarrito{
+   background-color: #572EE5;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+.tarjeta {
+   margin:20px 20px 20px 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   border-style: solid ;
+   border-color:#572EE5 ;
+   border-radius: 15px;
+   width: 100px;
+   height: 200px;
+}
+
+.tarjeta:active {
+   background-color: rgb(245, 247, 249);
+   
+}
+
+.tarjetaFinal{
+   margin:20px 20px 20px 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   background-color: #fff;
+   border-style: solid ;
+   border-color:#572EE5 ;
+   border-radius: 15px;
+   width: 100px;
+   height: 200px;
+}
+.nombreProducto{
+   font-family: Montserrat-Bold;
+font-size: 18px;
+color: #572EE5;
+text-align: center;
+}
+.precioProducto{
+   font-family: Montserrat-Bold;
+   font-size: 22px;
+   color: #50E3C2;
+   align-self: center;
+
+   
+
+}
+.tipoProducto{
+   font-family: Montserrat-Medium;
+   font-size: 16px;
+   color: #572EE5;
+   text-align: center;
+   
+}
+#listaProductos {
+   display: flex;
+   flex-direction: column;
+   
+}
+#ready{
+margin: 25px;
+align-self: center;
+width: 300px;
+color: #fff;
+padding: 10px 50px;
+background-color: #572EE5;
+border: none;
+border-radius: 20px;
+cursor: pointer;
+}
+#ready:active {
+   background-color: #2500ab;
+}
