@@ -156,12 +156,12 @@ const initCarrito = () => {
       miniContenedor.appendChild(imagen);
 
       miniContenedor.onmouseover = () => {
-         miniContenedor.style.width = "110px";
-         miniContenedor.style.height = "210px";
+         miniContenedor.style.width = "130px";
+         miniContenedor.style.height = "260px";
       }
       miniContenedor.onmouseout = () => {
-         miniContenedor.style.width = "100px";
-         miniContenedor.style.height = "200px";
+         miniContenedor.style.width = "120px";
+         miniContenedor.style.height = "250px";
       }
       miniContenedor.onclick = () => {
          products.map((v) => {
