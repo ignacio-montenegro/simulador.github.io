@@ -64,8 +64,8 @@ margin-bottom: 20px;
    border-style: solid ;
    border-color:#572EE5 ;
    border-radius: 15px;
-   width: 120px;
-   height: 250px;
+   width: 130px;
+   height: 260px;
 }
 
 .tarjeta:active {
@@ -82,8 +82,8 @@ margin-bottom: 20px;
    border-style: solid ;
    border-color:#572EE5 ;
    border-radius: 15px;
-   width: 100px;
-   height: 200px;
+   width: 130px;
+   height: 260px;
 }
 .nombreProducto{
    font-family: "Montserrat-Bold";
